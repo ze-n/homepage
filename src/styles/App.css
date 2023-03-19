@@ -34,6 +34,7 @@
 }
 .links a {
   color: var(--clr-text-white);
+  display: block;
 }
 .logos * {
   margin-right: 0.3rem;

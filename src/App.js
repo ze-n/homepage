@@ -13,7 +13,12 @@ function App() {
           <div className="home__left-card">
             <div className="links">
               <p className="title">Links</p>
-              <a href="#">Colt Steele Git & Github</a>
+              <a href="https://www.udemy.com/course/git-and-github-bootcamp/learn/">
+                Colt Steele | Git & Github
+              </a>
+              <a href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/">
+                Colt Steele | JS Algorithms
+              </a>
             </div>
             <div className="logos">
               <a href="https://github.com/" target="_blank" rel="noreferrer">
