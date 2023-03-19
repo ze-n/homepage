@@ -1,0 +1,50 @@
+.todocard {
+  background-color: var(--clr-brown-700);
+  padding: 2rem;
+  color: var(--clr-text-white);
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.33);
+}
+.todocard__header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.todocard__user-name {
+  margin-left: 1rem;
+}
+.todocard__add-item {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.todocard__add-item input {
+  background: none;
+  border: 1px solid var(--clr-text-white);
+  line-height: 2rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  color: inherit;
+  padding-block: 0.3rem;
+  padding-inline: 0.8rem;
+}
+.todocard__add-item input:where(:focus, :active) {
+  outline: 1px solid var(--clr-green-300);
+}
+
+.todocard__list {
+  background-color: var(--clr-brown-800);
+  padding: 1rem;
+}
+.todocard__list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todocard__list-items span {
+  display: flex;
+  align-items: center;
+}
+.todocard__list-items label {
+  display: inline-block;
+}

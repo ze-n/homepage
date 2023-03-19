@@ -1,0 +1,40 @@
+.home {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--clr-red-300);
+  display: grid;
+  grid-template-columns: 65% 35%;
+  font-family: var(--poppins);
+}
+.home__left {
+  background-color: var(--clr-brown-700);
+  padding: 3rem;
+}
+.home__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__left-card {
+  background-color: var(--clr-brown-800);
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  font-size: var(--fs-big);
+  font-weight: var(--fw-bold);
+  color: var(--clr-text-white);
+  margin-bottom: 1rem;
+}
+.links a {
+  color: var(--clr-text-white);
+}
+.logos * {
+  margin-right: 0.3rem;
+}
